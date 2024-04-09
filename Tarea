@@ -1,0 +1,16 @@
+meme_dict = {
+            "CRINGE": "Algo excepcionalmente raro o embarazoso",
+            "LOL": "Una respuesta común a algo gracioso",
+            "POV": "Punto de vista",
+            "NASHE": "Cosas increibles que pasan en ese momento",
+            "MANCO": "Que el que juega contra el o su amigo es malo en lo que juega",
+            "STORYTIME": "Que cuenta algo que le ha pasado"
+            }
+
+word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
+
+
+if word in meme_dict.keys():
+    print(word)
+else:
+    print("No se encontro esa palabra")
